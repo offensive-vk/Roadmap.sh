@@ -1,4 +1,4 @@
-name: ❤️ Greetings
+name: Greetings
 
 on:
   issues:
@@ -16,18 +16,41 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: |
-            🙌 Hello! Thank you for taking the time to file an issue. 
-            
-            If this is a bug report, please include any relevant logs or details that can help us debug the problem. Your help is greatly appreciated! 💡
+            🙌 **Hello and welcome!**
 
-            We'll get back to you as soon as possible, kindly be patient for a response from a maintainer.
+            Thank you for taking the time to open an issue. To ensure your issue is addressed promptly and effectively, here are some steps you can follow:
+
+            ### Things to do after opening an issue:
+            1. **Provide Detailed Information:**
+               - For bugs, include logs, steps to reproduce, and the expected vs actual behavior.
+               - For feature requests or project ideas, clearly outline the use case, benefits, and any implementation ideas you might have.
+            2. **Check Existing Discussions:**
+               - Verify if a similar issue or request already exists to avoid duplicates.
+            3. **Join the Community on [Discord](https://roadmap.sh/discord):**
+               - Share your ideas, seek feedback, and engage with other contributors.
+            4. **Stay Patient:**
+               - A maintainer will review your issue soon. Avoid pinging unnecessarily.
+
+            Your contributions help make this project better for everyone. Thank you! 💡
           pr-message: |
-            🎉 Warm regards and welcome! Thank you for your first ever contribution to **Roadmap.sh**! 
-            
-            We appreciate your effort and enthusiasm. Before diving in, we kindly ask you to take a moment to go through our [Contribution Guidelines](https://github.com/kamranahmedse/developer-roadmap/blob/master/contributing.md) 📘 to ensure your contribution aligns with the project's standards and goals.
+            🎉 **Warm regards and welcome!**
 
-            If you are fixing a bug, please reference the associated issue number in your pull request description. 🐛
+            Thank you for opening your first pull request to **Roadmap.sh**! We're thrilled to have your contribution. Here are some important steps to follow:
 
-            If you're working on a new feature, feel free to check with the community on [discord](https://roadmap.sh/discord) to ensure the feature will be accepted. *Also, kindly refrain pinging the maintainer(s).* 🚀
+            ### Things to do after submitting a pull request:
+            1. **Read the [Contribution Guidelines](https://github.com/kamranahmedse/developer-roadmap/blob/master/contributing.md):**
+               - Ensure your PR aligns with the project's goals and standards.
+            2. **Reference Related Issues:**
+               - If this PR fixes a bug, mention the issue number (e.g., "Fixes #123").
+            3. **Provide Context:**
+               - Include details about the changes, why they are necessary, and how they were implemented.
+            4. **Engage with the Community:**
+               - Discuss your updates with other contributors on [Discord](https://roadmap.sh/discord).
+            5. **Be Patient:**
+               - Wait for the maintainers to review your PR and provide feedback. Refrain from pinging maintainers unnecessarily.
 
-            Thanks for choosing to contribute, and for making this project better! 🌟
+            ### Further Enhancements:
+            - If your PR introduces a new feature, ensure to update relevant documentation.
+            - If your PR is merged, celebrate and feel free to take up more issues from our repository!
+
+            Thank you for contributing and making this project better! 🌟
